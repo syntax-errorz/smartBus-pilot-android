@@ -18,17 +18,16 @@ public class Login_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login_activity);
         userid=(EditText)findViewById(R.id.userid);
         password=(EditText)findViewById(R.id.password);
         login=(Button)findViewById(R.id.login);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_login_activity);
         login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent enabler_intent=new Intent(Login_activity.this,Login_activity.class);
-                startActivity(enabler_intent);
-            }
-        });
+          @Override
+          public void onClick(View v) {
+              Intent enabler_intent=new Intent(Login_activity.this,Enabler_activity.class);
+              startActivity(enabler_intent);
+          }
+      });
     }
 }

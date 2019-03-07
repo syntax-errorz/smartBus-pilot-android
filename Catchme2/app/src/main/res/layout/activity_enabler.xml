@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <Switch
         android:id="@+id/switch2"
@@ -10,5 +11,5 @@
         android:layout_weight="1"
         android:text="@string/location"
         android:textColor="@color/colorAccent"
-        android:textSize="36sp" />
+        android:textSize="50sp" />
 </LinearLayout>
