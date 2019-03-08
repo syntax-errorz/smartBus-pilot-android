@@ -1,14 +1,11 @@
 package io.google.catchme;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 
 public class Login_activity extends AppCompatActivity {
     private EditText userid;
