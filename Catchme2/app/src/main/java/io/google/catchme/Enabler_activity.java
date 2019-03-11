@@ -23,9 +23,7 @@ import java.util.List;
 public class Enabler_activity extends AppCompatActivity {
 
 
-    protected static final String TAG = "LocationOnOff";
-
-    private GoogleApiClient googleApiClient;
+        private GoogleApiClient googleApiClient;
     final static int REQUEST_LOCATION = 199;
 
     @Override
@@ -47,11 +45,11 @@ public class Enabler_activity extends AppCompatActivity {
         }
 
         if (!manager.isProviderEnabled(LocationManager.GPS_PROVIDER) && hasGPSDevice(Enabler_activity.this)) {
-            Log.e("keshav", "Gps already enabled");
+            Log.e("check", "Gps already enabled");
             Toast.makeText(Enabler_activity.this, "Gps not enabled", Toast.LENGTH_SHORT).show();
             enableLoc();
         } else {
-            Log.e("keshav", "Gps already enabled");
+            Log.e("check", "Gps already enabled");
             Toast.makeText(Enabler_activity.this, "Gps already enabled", Toast.LENGTH_SHORT).show();
         }
     }
