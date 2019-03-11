@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "439347343281",
+    "firebase_url": "https://catch-me-619c1.firebaseio.com",
+    "project_id": "catch-me-619c1",
+    "storage_bucket": "catch-me-619c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439347343281:android:6b4d180ed71bd701",
+        "android_client_info": {
+          "package_name": "io.google.catchme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439347343281-5nv7mrdn4fu2v0dtstu326avlqpn9kfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.google.catchme",
+            "certificate_hash": "f09885627564135b2331d018f06e59d801e29812"
+          }
+        },
+        {
+          "client_id": "439347343281-o24kufsoad0cs61lpltalecrsvn0vs30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_RArvCCPSVXWO793m-u0SR84S4AwaCF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439347343281-o24kufsoad0cs61lpltalecrsvn0vs30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
