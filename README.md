@@ -3,6 +3,8 @@
 IDE: ANDROID STUDIO
 -------------------
 
+**LANGUAGE USED - JAVA & XML**
+
 UI SCREENS:
 ----------
 
